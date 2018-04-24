@@ -1,0 +1,8 @@
+{
+    "description": "Send alerts",
+    "frequency": 60,
+    "name": "ContainterAlertTimer",
+    "repeats": -1,
+    "service_name": "ContainerAlert",
+    "start_time": "2018-04-13T14:00:06Z"
+}
