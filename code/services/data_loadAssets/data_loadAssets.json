@@ -1,0 +1,13 @@
+{
+    "current_version": 14,
+    "dependencies": "clearblade",
+    "logging_enabled": "false",
+    "name": "data_loadAssets",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "data_loadAssets.js"
+}
