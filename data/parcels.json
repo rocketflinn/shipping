@@ -1,0 +1,173 @@
+{
+    "app_id": "a0f4fcac0bd4a2c18a84ebde889901",
+    "collection_id": "a497a5ad0bb4b4f3e88bc9aaf4f501",
+    "items": [
+        {
+            "container_id": "container-1003",
+            "description": "spare engine",
+            "height": "80",
+            "length": "48",
+            "parcel_id": "2",
+            "status": "Vibration Alert",
+            "weight": "1500",
+            "width": "76"
+        },
+        {
+            "container_id": "container-2345",
+            "description": "spare parts",
+            "height": "10",
+            "length": "34",
+            "parcel_id": "7",
+            "status": "normal",
+            "weight": "45",
+            "width": "24"
+        },
+        {
+            "container_id": "container-3567",
+            "description": "engine",
+            "height": "75",
+            "length": "72",
+            "parcel_id": "10",
+            "status": "normal",
+            "weight": "1400",
+            "width": "45"
+        },
+        {
+            "container_id": "container-1003",
+            "description": "tires",
+            "height": "60",
+            "length": "36",
+            "parcel_id": "1",
+            "status": "normal",
+            "weight": "200",
+            "width": "60"
+        },
+        {
+            "container_id": "container-3567",
+            "description": "brake parts",
+            "height": "25",
+            "length": "12",
+            "parcel_id": "11",
+            "status": "normal",
+            "weight": "50",
+            "width": "13"
+        },
+        {
+            "container_id": "container-1003",
+            "description": "compressor",
+            "height": "50",
+            "length": "35",
+            "parcel_id": "4",
+            "status": "normal",
+            "weight": "800",
+            "width": "48"
+        },
+        {
+            "container_id": "container-2345",
+            "description": "compressor",
+            "height": "50",
+            "length": "50",
+            "parcel_id": "8",
+            "status": "normal",
+            "weight": "600",
+            "width": "45"
+        },
+        {
+            "container_id": "container-1003",
+            "description": "engine tools",
+            "height": "20",
+            "length": "36",
+            "parcel_id": "3",
+            "status": "normal",
+            "weight": "150",
+            "width": "36"
+        },
+        {
+            "container_id": "container-3567",
+            "description": "propeller",
+            "height": "120",
+            "length": "33",
+            "parcel_id": "9",
+            "status": "normal",
+            "weight": "900",
+            "width": "200"
+        },
+        {
+            "container_id": "container-3567",
+            "description": "tools",
+            "height": "15",
+            "length": "36",
+            "parcel_id": "12",
+            "status": "normal",
+            "weight": "20",
+            "width": "56"
+        },
+        {
+            "container_id": "container-2345",
+            "description": "propeller",
+            "height": "120",
+            "length": "56",
+            "parcel_id": "5",
+            "status": "normal",
+            "weight": "400",
+            "width": "34"
+        },
+        {
+            "container_id": "container-2345",
+            "description": "engine",
+            "height": "36",
+            "length": "50",
+            "parcel_id": "6",
+            "status": "normal",
+            "weight": "1400",
+            "width": "75"
+        }
+    ],
+    "name": "parcels",
+    "permissions": {
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "parcel_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "container_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "height",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "width",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "length",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "weight",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "status",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
