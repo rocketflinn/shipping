@@ -1,0 +1,12 @@
+{
+    "current_version": 15,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "false",
+    "name": "ContainerAlert",
+    "params": [],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "ContainerAlert.js"
+}
