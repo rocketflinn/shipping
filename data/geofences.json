@@ -1,0 +1,37 @@
+{
+    "app_id": "a0f4fcac0bd4a2c18a84ebde889901",
+    "collection_id": "a2f4fcac0b98f6ecf6eff0b4afae01",
+    "items": [],
+    "name": "geofences",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "polygon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "recorddate",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "color",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "opacity",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ]
+}
